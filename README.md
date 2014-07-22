@@ -8,7 +8,7 @@ Copyright (c) 2009-2013 Bitcoin Developers
 What is Bancorcoin?
 ----------------
 
-Bancorcoin is an experimental new digital currency that enables instant payments to
+Bancorcoin is an new digital currency that enables instant payments to
 anyone, anywhere in the world. Bancorcoin uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
 out collectively by the network. Bancorcoin is also the name of the open source
