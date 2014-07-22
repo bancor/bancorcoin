@@ -1,0 +1,9 @@
+Building Bancorcoin
+
+See doc/readme-qt.rst for instructions on building Bancorcoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Bancorcoin.
+
+See doc/build-*.txt for instructions on building bancorcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Bancorcoin.

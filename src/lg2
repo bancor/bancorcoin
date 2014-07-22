@@ -1,0 +1,54 @@
+Convert string '.;C:\MinGW\msys\1.0\local\bin;C:\MinGW\msys\1.0\mingw\bin;C:\MinGW\msys\1.0\bin;c:\mingw32\bin;c:\Inprise\vbroker\bin;c:\Program Files\Borland\Delphi7\Bin;c:\Program Files\Borland\Delphi7\Projects\Bpl\;c:\WINDOWS\system32;c:\WINDOWS;c:\WINDOWS\System32\Wbem;c:\Program Files\OpenVPN\bin' into prefixes, separator = ';'
+  - add prefix: ./
+  - add prefix: C:\MinGW\msys\1.0\local\bin/
+  - add prefix: C:\MinGW\msys\1.0\mingw\bin/
+  - add prefix: C:\MinGW\msys\1.0\bin/
+  - add prefix: c:\mingw32\bin/
+  - add prefix: c:\Inprise\vbroker\bin/
+  - add prefix: c:\Program Files\Borland\Delphi7\Bin/
+  - add prefix: c:\Program Files\Borland\Delphi7\Projects\Bpl\
+  - add prefix: c:\WINDOWS\system32/
+  - add prefix: c:\WINDOWS/
+  - add prefix: c:\WINDOWS\System32\Wbem/
+  - add prefix: c:\Program Files\OpenVPN\bin/
+Looking for 'real-ld'
+  - failed: no entries in prefix list
+Looking for 'collect-ld'
+  - failed: no entries in prefix list
+Looking for 'ld'
+  - failed: no entries in prefix list
+Looking for 'ld'
+Looking for 'gnm'
+  - failed: no entries in prefix list
+Looking for 'gnm'
+Looking for 'nm'
+  - failed: no entries in prefix list
+Looking for 'nm'
+Looking for 'gstrip'
+  - failed: no entries in prefix list
+Looking for 'gstrip'
+Looking for 'strip'
+  - failed: no entries in prefix list
+Looking for 'strip'
+Looking for 'gcc'
+  - failed: no entries in prefix list
+Looking for 'gcc'
+collect2 version 4.8.2
+ld_file_name        = c:\mingw32\bin/ld.exe
+c_file_name         = c:\mingw32\bin/gcc.exe
+nm_file_name        = c:\mingw32\bin/nm.exe
+strip_file_name     = c:\mingw32\bin/strip.exe
+c_file              = C:\DOCUME~1\9335~1\LOCALS~1\Temp\ccjIDs5V.c
+o_file              = C:\DOCUME~1\9335~1\LOCALS~1\Temp\ccsg7K0H.o
+
+c:\mingw32\bin/ld.exe --sysroot=C:/mingw482/i686-482-posix-dwarf-rt_v3-rev4/mingw32 -m i386pe -Bstatic -o bancorcoind.exe c:/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/lib/../lib/crt2.o c:/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/crtbegin.o -Lc:/bb/bancorcoin/src/leveldb -Lc:/bb/deps/boost_1_55_0/stage/lib -Lc:/bb/deps/miniupnpc -Lc:/bb/deps/db-4.8.30.NC/build_unix -Lc:/bb/deps/openssl-1.0.1g -Lc:/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.8.2 -Lc:/mingw32/bin/../lib/gcc -Lc:/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/lib/../lib -Lc:/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../lib -Lc:/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../../../i686-w64-mingw32/lib -Lc:/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/../../.. --dynamicbase --nxcompat --large-address-aware leveldb/libleveldb.a obj/alert.o obj/version.o obj/checkpoints.o obj/netbase.o obj/addrman.o obj/crypter.o obj/key.o obj/db.o obj/init.o obj/keystore.o obj/main.o obj/net.o obj/protocol.o obj/bitcoinrpc.o obj/rpcdump.o obj/rpcnet.o obj/rpcmining.o obj/rpcwallet.o obj/rpcblockchain.o obj/rpcrawtransaction.o obj/script.o obj/sync.o obj/util.o obj/wallet.o obj/walletdb.o obj/hash.o obj/bloom.o obj/noui.o obj/leveldb.o obj/txdb.o -lleveldb -lmemenv -llboost_system-mgw48-mt-sd-1_55 -llboost_filesystem-mgw48-mt-sd-1_55 -lboost_program_options-mgw48-mt-sd-1_55 -lboost_thread-mgw48-mt-sd-1_55 -lboost_chrono-mgw48-mt-sd-1_55 -ldb_cxx -lssl -lcrypto -lminiupnpc -liphlpapi -lmingwthrd -lkernel32 -luser32 -lgdi32 -lcomdlg32 -lwinspool -lwinmm -lshell32 -lcomctl32 -lole32 -loleaut32 -luuid -lrpcrt4 -ladvapi32 -lws2_32 -lmswsock -lshlwapi -lstdc++ -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt c:/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.8.2/crtend.o
+c:\mingw32\bin/ld.exe: cannot find -llboost_system-mgw48-mt-sd-1_55
+c:\mingw32\bin/ld.exe: cannot find -llboost_filesystem-mgw48-mt-sd-1_55
+c:\mingw32\bin/ld.exe: cannot find -lboost_program_options-mgw48-mt-sd-1_55
+c:\mingw32\bin/ld.exe: cannot find -lboost_thread-mgw48-mt-sd-1_55
+c:\mingw32\bin/ld.exe: cannot find -lboost_chrono-mgw48-mt-sd-1_55
+collect2.exe: error: ld returned 1 exit status
+[Leaving C:\DOCUME~1\9335~1\LOCALS~1\Temp\ccjIDs5V.c]
+[Leaving C:\DOCUME~1\9335~1\LOCALS~1\Temp\ccsg7K0H.o]
+[Leaving C:\DOCUME~1\9335~1\LOCALS~1\Temp\ccBOA3Vt.ld]
+[Leaving C:\DOCUME~1\9335~1\LOCALS~1\Temp\ccKm4lRf.le]
